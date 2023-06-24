@@ -1,0 +1,149 @@
+<style>
+            body{
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                ul {
+                    list-style-type: none;
+                    overflow: hidden;
+                    margin-left: auto;
+                    padding-bottom: 6px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-right: 6px;
+                    }
+
+                li {
+                    float: right;
+                }
+                li a {
+                    color: #202124;
+                    display: block;
+                    text-align: center;
+                    padding: 10px 10px;
+                    text-decoration: none;
+                    font-size:14px;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                .menu_button:hover{
+                    text-decoration: underline;
+                }
+                .grid{
+                    border-radius: 50px;
+                    height:25px;
+                    padding: 10px;
+                    margin-top: -10px;
+                    position:relative;
+                    bottom:4px;
+                    background-color: transparent 40px;
+                    border: 1px solid transparent;
+                    border-radius: 20px;
+                }
+                .grid:hover {
+                    border-radius: 50px;
+                    padding: 10px;
+                    background-color: rgb(227, 224, 224);
+                }
+                .signbutton {
+                    background-color: #4885ed;
+                    color: #fff;
+                    border: 1px solid transparent;
+                    border-radius:3px;
+                    padding:7px 10px;
+                    position:relative;
+                    bottom:7px;
+                    font-weight:bold;
+                }
+                .signbutton:hover {
+                    box-shadow: 1.5px 1.5px 10px 1.5px rgba(0,0,0,.1);
+                    border: 1px solid rgba(0, 0, 0, 0.044);
+                    color: #fff;
+                    cursor: pointer;
+                    background-color: #1768d2;
+                }
+                #googleimg {
+                    text-align: left;
+                    margin-bottom: 20px;
+                    height: 30px;
+                }
+                #googleimg img{
+                    height: 25px;
+                }
+                .header_advanced{
+                    display: flex;
+                    align-items: center;
+                    height: 64%;
+                    font-size: 13px;
+                }
+                .corps {
+                    color: #d93025;
+                    font-size: 20px;
+                    margin: 25px 35px;
+                }
+                .separator-line {
+                    border-bottom: solid 1px #d6d6d6;
+                }
+                table{
+                    font-family: arial,sans-serif;
+                    color: #333;
+                    font-size: 16px;
+                    margin: 40px 2% 0 45px;
+                    table-layout: fixed;
+                    border-collapse: collapse;
+                    border: 3px solid transparent;
+                }
+                td {
+                    padding: 10px;
+                    border: 3px solid transparent;
+                    width: auto;
+                }
+                tbody td {
+                    text-align: left;
+                    width: 16%;
+                    font-size: 14px;
+                }
+                table tr {
+                    width: 100%;
+                }
+                table input{
+                    width: 100%;
+                    padding: 2px 0;
+                }
+                
+                .blue-button {
+                    background-color: dodgerblue;
+                    color: white;
+                    font-size: smaller;
+                    max-width: 200px;
+                    border-radius: 5px;
+                    border: 1px solid #156bbd;
+                    float: right;
+                    padding: 10px 2px;
+                    margin: 0;
+                    height: 40px;
+                    width: 100%;
+                    font-size: 13px;
+                }
+                .blue-button:hover {
+                    box-shadow: 1.5px 1.5px 10px 1.5px rgba(0,0,0,.1);
+                    border: 1px solid rgba(0, 0, 0, 0.044);
+                    color: #fff;
+                    cursor: pointer;
+                    background-color: #1768d2;   
+                }
+                .barre {
+                    width: 50%;
+                }
+                .monospace {
+                    font-family: monospace;
+                }
+                .clarification {
+                    font-size: 11px;
+                    width: 30%;
+                    margin-left: 1%;
+                }
+                .precision {
+                    font-size: 13px;
+                    width: 10%;
+                    margin-left: 1px;
+                }
+        </style>

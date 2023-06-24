@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styleadvanced.css">
+        
+    </head>
+    <body>
+        <header>
+            <div class="header_advanced">
+                <div id="googleimg">
+                    <a href="index.html"><img src="googlepic.png" alt="googlepic"></a>
+                </div>
+                <ul>
+                    <li><a class="links" href="#user"><button class="signbutton" type="button">Sign In</button></a></li>
+                    <li><a href="#grid"><img class="grid" src="buttonapps.png" title="Google apps"></a></li>
+                    <li><a class="menu_button" href="index2.html">Google Search</a></li>
+                    <li><a class="menu_button" href="GoogleImage.html">Image Search</a></li>
+                </ul>  
+            </div>
+        </header>  
+
+        <div class="corps">
+            <label>Advanced Search</label>
+        </div>
+        <div class="separator-line"></div>
+
+        <form action="https://www.google.com/search">
+            <table>
+                    <tbody>
+                        <tr>
+                            <td>Find pages with...</td>
+                            <td></td>
+                            <td>To do this in the search box</td>
+                        </tr>
+                        <tr>
+                            <td class="precision">All these words:</td>
+                            <td class="barre"><input type="text" name="as_q"></td>
+                            <td class="clarification">Type the important words:
+                                <span class="monospace"> tri-colour rat terrier</span></td>
+                        </tr>
+                        <tr>
+                            <td class="precision">This exact word or phrase:</td>
+                            <td class="barre"> <input type="text" name="as_epq"></td>
+                            <td class="clarification">Put exact words in quotes: <span class="monospace">"rat terrier"</span></td>
+                        </tr>
+                        <tr>
+                            <td class="precision">Any of these words:</td>
+                            <td class="barre"><input type="text" name="as_oq"></td>
+                            <td class="clarification">Type OR between all the words you want: <span class="monospace">miniature OR standard</span></td>
+                        </tr>
+                        <tr>
+                            <td class="precision">None of these words:</td>
+                            <td class="barre"><input type="text" name="as_eq"></td>
+                            <td class="clarification">Put a minus sign just before words that you don't want: <span class="monospace">-rodent, -"Jack Russell"</span></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" class="blue-button" value="Google Advanced Search"></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+            </table>
+        </form>
+    </body>
+</html>

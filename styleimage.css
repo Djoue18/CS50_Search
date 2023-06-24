@@ -1,0 +1,119 @@
+<style>
+            form {
+                border-radius: 2px;
+            }
+            #googleimg {
+                text-align: center;
+                margin-top: 60px;
+                margin-bottom: 20px;
+            }
+            
+            form{
+                text-align: center;
+            }
+            .menu_button:hover{
+                text-decoration: underline;
+            }
+            .bar {
+                margin: 0 auto;
+                width: 575px;
+                border-radius: 30px;
+                border: solid rgb(222, 222, 222) 1px;
+                background: url(iconsearch.png) no-repeat scroll 15px 16px;
+                background-size: 13px;
+                padding-left:20px;
+                outline: none;
+            }
+            
+            .searchbar {
+                height:45px;
+                border:none;
+                width:500px;
+                font-size:16px;
+                outline: none;
+            }
+            .Image{
+                height:25px;
+                position:relative;
+                top:5px;
+                left:-15px;
+            }
+            .glass{
+                height:20px;
+                position:relative;
+                top:2px;
+                left:-5px;
+            }
+            .bar:hover {
+                box-shadow: 1px 1px 8px 1px #dcdcdc;
+            }
+            .bar:focus-within {
+                box-shadow: 1px 1px 8px 1px #dcdcdc;
+                outline: none;
+            }
+            ul {
+                list-style-type: none;
+                overflow: hidden;
+                padding-bottom: 6px;
+                padding-left: 6px;
+                padding-right: 6px;
+                padding-top: 6px;
+                }
+
+            li {
+                float: right;
+            }
+            li a {
+                  color: #202124;
+                display: block;
+                text-align: center;
+                padding: 10px 10px;
+                text-decoration: none;
+                font-size:14px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .grid{
+                border-radius: 50px;
+                height:25px;
+                padding: 10px;
+                margin-top: -10px;
+                position:relative;
+                bottom:4px;
+                background-color: transparent 40px;
+                border: 1px solid transparent;
+                border-radius: 20px;
+            }
+            .grid:hover {
+                border-radius: 50px;
+                padding: 10px;
+                background-color: rgb(227, 224, 224);
+            }
+            .signbutton {
+                font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+                font-weight: 500;
+                font-size: 12px;
+                letter-spacing: .25px;
+                line-height: 16px;
+                text-align: center;
+                background-color: #1a73e8;
+                color: #fff;
+                border: 1px solid transparent;
+                border-radius:3px;
+                padding:7px 10px;
+                position:relative;
+                bottom:7px;
+                font-weight:bold;
+            }
+            .signbutton:hover {
+                box-shadow: 1.5px 1.5px 10px 1.5px rgba(0,0,0,.1);
+                border: 1px solid rgba(0, 0, 0, 0.044);
+                color: #fff;
+                cursor: pointer;
+                background-color: #1768d2;
+            }
+            .buttons{
+                text-align: center;
+                margin-top: 10px;
+            }
+            
+        </style>
